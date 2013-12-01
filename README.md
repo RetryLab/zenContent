@@ -4,6 +4,8 @@ developing ...
 
 ##Todo
 
+* user login/logout module
+* product info CRUD module
 * prototype design of UI
 * template of UI
 * using mongodb

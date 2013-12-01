@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+var user = require('./lib/user');
 
 //for debug
 app.use(express.logger());
@@ -11,6 +12,11 @@ app.configure(function(){
 	app.use(express.cookieParser());
 	app.use(express.methodOverride());
 });
+
+app.set('view engine', 'ejs');
+app.set('views', __dirname + '/html/template');
+
+app.get('/login.html', user.loginPage);
 
 app.use(express.static(__dirname + '/html/static', { maxAge: 86400 }));
 

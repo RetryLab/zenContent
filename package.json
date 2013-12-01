@@ -21,6 +21,7 @@
 		"passport": "0.1.x",
 		"iconv-lite": "0.2.x",
 		"request": "2.21.x",
+		"ejs": "0.8.x",
 		"async": "0.1.x"
 	},
 	"author": "Tad Wang",
