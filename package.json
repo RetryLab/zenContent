@@ -1,0 +1,31 @@
+{
+	"name": "zenContent",
+	"version": "0.0.0",
+	"description": "zen Content",
+	"main": "app.js",
+	"directories": {
+		"doc": "doc"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mountdoom/zenContent.git"
+	},
+	"keywords": [
+		"cms"
+	],
+	"dependencies": {
+		"express": "3.x",
+		"passport": "0.1.x",
+		"iconv-lite": "0.2.x",
+		"request": "2.21.x",
+		"async": "0.1.x"
+	},
+	"author": "Tad Wang",
+	"license": "BSD-2-Clause",
+	"bugs": {
+		"url": "https://github.com/mountdoom/zenContent/issues"
+	}
+}

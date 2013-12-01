@@ -12,3 +12,8 @@ developing ...
 * support PDF text search
 * SEO function
 * support markdown
+
+
+* photo support
+* file download
+* production description
